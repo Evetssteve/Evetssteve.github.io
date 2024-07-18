@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Deals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Discount Deals</h1>
+        <nav>
+            <ul>
+                <li><a href="#deals">Deals</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="deals">
+            <h2>Today's Deals</h2>
+            <div class="deal-card" id="deal1">
+                <h3>50% Off Spa Day</h3>
+                <p>Relax and rejuvenate at our luxury spa.</p>
+                <button onclick="purchaseDeal('Spa Day')">Buy Now</button>
+            </div>
+            <div class="deal-card" id="deal2">
+                <h3>30% Off Restaurant</h3>
+                <p>Enjoy a gourmet meal at a local restaurant.</p>
+                <button onclick="purchaseDeal('Restaurant')">Buy Now</button>
+            </div>
+            <!-- Add more deals as needed -->
+        </section>
 
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We provide amazing deals on local experiences.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@discountdeals.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Discount Deals</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
